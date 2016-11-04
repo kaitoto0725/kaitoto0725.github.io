@@ -5,9 +5,9 @@
     <description>This is Song&#39; home.</description>
     <link>kongsong.me/</link>
     <atom:link href="kongsong.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Oct 2016 17:28:02 +0800</pubDate>
-    <lastBuildDate>Mon, 31 Oct 2016 17:28:02 +0800</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>2016-11-04 22:56:38 +0900</pubDate>
+    <lastBuildDate>2016-11-04 22:56:38 +0900</lastBuildDate>
+    <generator>Jekyll v</generator>
     
       <item>
         <title>Ice Bear Jekyll Theme</title>
@@ -20,12 +20,12 @@
 
 &lt;ul&gt;
   &lt;li&gt;Fork the repository. &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/songkong/Blog/fork&quot; data-count-href=&quot;/songkong/Blog/network&quot; data-count-api=&quot;/repos/songkong/Blog#forks_count&quot; data-count-aria-label=&quot;# forks on GitHub&quot; aria-label=&quot;Fork songkong/Blog on GitHub&quot;&gt;Fork&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;About me&lt;/code&gt; content in &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Add your own &lt;code class=&quot;highlighter-rouge&quot;&gt;projects&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/projects.html&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Change &lt;code class=&quot;highlighter-rouge&quot;&gt;domain name&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Add your own &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus&lt;/code&gt; code in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/comments.html&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;The last two scripts in &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/js/script.js&lt;/code&gt; offer Google Analytics and Baidu Analytics. You can replace them with your own codes.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
+  &lt;li&gt;Edit &lt;code&gt;About me&lt;/code&gt; content in &lt;code&gt;index.html&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add your own &lt;code&gt;projects&lt;/code&gt; in &lt;code&gt;_includes/projects.html&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Change &lt;code&gt;domain name&lt;/code&gt; in &lt;code&gt;CNAME&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add your own &lt;code&gt;disqus&lt;/code&gt; code in &lt;code&gt;_includes/comments.html&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The last two scripts in &lt;code&gt;assets/js/script.js&lt;/code&gt; offer Google Analytics and Baidu Analytics. You can replace them with your own codes.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;style-test&quot;&gt;Style test&lt;/h1&gt;
@@ -74,16 +74,18 @@
   &lt;li&gt;Ordered List&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ruby&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;codes&lt;/span&gt;
+&lt;div&gt;
+  &lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;// Ruby codes
 
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;parallel&#39;&lt;/span&gt;
+require &amp;#39;parallel&amp;#39;
 
-&lt;span class=&quot;no&quot;&gt;Parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lots_of_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;heavy_computation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chunk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+Parallel.map(lots_of_data) do |chunk|
+  heavy_computation(chunk)
+end&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 </description>
-        <pubDate>Sat, 01 Oct 2016 15:52:30 +0800</pubDate>
+        <pubDate>2016-10-01 16:52:30 +0900</pubDate>
         <link>kongsong.me/blog/ice-bear-jekyll-theme/</link>
         <guid isPermaLink="true">kongsong.me/blog/ice-bear-jekyll-theme/</guid>
         
@@ -127,7 +129,7 @@
 
 &lt;h4 id=&quot;chapter1-1&quot;&gt;1.1 ECMAScript&lt;/h4&gt;
 
-&lt;p&gt;ECMAScript 是由 ECMA-262 定义的与&lt;code class=&quot;highlighter-rouge&quot;&gt;宿主环境&lt;/code&gt;（如 Web 浏览器、Node 和 Adobe Flash 等）没有依赖关系的一门语言，该语言本身并不包括输入和输出定义。宿主环境不仅提供基本的 ECMAScript 实现，同时还会提供该语言的扩展，如 DOM。&lt;/p&gt;
+&lt;p&gt;ECMAScript 是由 ECMA-262 定义的与&lt;code&gt;宿主环境&lt;/code&gt;（如 Web 浏览器、Node 和 Adobe Flash 等）没有依赖关系的一门语言，该语言本身并不包括输入和输出定义。宿主环境不仅提供基本的 ECMAScript 实现，同时还会提供该语言的扩展，如 DOM。&lt;/p&gt;
 
 &lt;p&gt;ECMA-262 规定了这门语言的下列组成：语法、类型、语句、关键字、保留字、操作符、对象。&lt;/p&gt;
 
@@ -166,7 +168,7 @@
 &lt;p&gt;浏览器对象模型（BOM，Browser Object Model）提供访问和操作浏览器窗口的方法和接口。使用 BOM 可以控制浏览器显示的页面以外的部分。由于没有 BOM 标准可以遵循，因此每个浏览器都有自己的实现。&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 Sep 2016 13:40:30 +0800</pubDate>
+        <pubDate>2016-09-15 14:40:30 +0900</pubDate>
         <link>kongsong.me/blog/javascript-reading-notes/</link>
         <guid isPermaLink="true">kongsong.me/blog/javascript-reading-notes/</guid>
         
@@ -231,7 +233,7 @@
 &lt;p&gt;目前想到这么多，明天开始，不辜负每一天。明年夏天，遇见最好的自己。&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 31 Aug 2016 21:58:30 +0800</pubDate>
+        <pubDate>2016-08-31 22:58:30 +0900</pubDate>
         <link>kongsong.me/blog/review-and-plan/</link>
         <guid isPermaLink="true">kongsong.me/blog/review-and-plan/</guid>
         
